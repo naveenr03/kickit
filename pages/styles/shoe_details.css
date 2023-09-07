@@ -45,7 +45,7 @@ button{
     border: 1px solid black;
     cursor: pointer;
 }
-.cart{
+.cart-style{
     text-align: center;
     margin-left: 22px;
 }
@@ -54,10 +54,12 @@ button{
     color: white;
     width: 380px;
 }
-.but:hover{
-    background-color: black;
-    color: white;
+.but:hover,
+.but.selected {
+  background-color: black;
+  color: white;
 }
+    
 #searchbox{
     border-top-width: 1px;
     border-left-width: 1px;
