@@ -77,3 +77,34 @@ nav ul li{
   column-gap: 15px;
 }
 
+.cart {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  padding-top: 35px;
+  padding-left: 50px;
+}
+
+.cart-icon {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.cart-count {
+  background-color: #ff5733;
+  color: white;
+  font-size: 16px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

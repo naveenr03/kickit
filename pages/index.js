@@ -13,3 +13,12 @@ function searchShoe() {
     }
   });
 }
+
+function addSize() {
+    const buttons = document.getElementsByClassName("but");
+  
+    for (let i = 0; i < buttons.length; i++) {
+      buttons[i].style.backgroundColor = "black";
+    }
+  }
+  
