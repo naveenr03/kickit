@@ -1,0 +1,81 @@
+.flex-container{
+    display: flex;
+    text-align: right;
+}
+.description{
+    margin-left: 20px;
+}
+.grid-container{
+    display: grid;
+    margin-left: 80px;
+    grid-template-columns: 400px 400px;
+    column-gap: 60px;
+    row-gap: 40px;
+    margin-top: 160px;
+}
+#wow{
+    width: 417px;
+    height: 419px;
+}
+.text{
+    text-align: right;
+    margin-top: 200px ;
+    margin-left: 30px;
+    font-size: 30px;
+
+}
+#adi{
+    font-weight:200;
+    font-size: 20px ;
+
+}
+.head{
+    text-align: left;
+}
+.buttons{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 25px}
+
+button{
+    padding: 15px 25px;
+    margin: 5px;
+    font-size: 13px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.cart{
+    text-align: center;
+    margin-left: 22px;
+}
+#addcart{
+    background-color: black;
+    color: white;
+    width: 380px;
+}
+.but:hover{
+    background-color: black;
+    color: white;
+}
+#searchbox{
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 40px;
+    border-radius: 20px;
+    border-radius: 20px;
+    height: 35px;
+    width: 260px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: 400;
+}
+
